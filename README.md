@@ -1,3 +1,4 @@
 # Assignment1
-To create my own shell-script.
-Making a repository with many branches on git.
+1. To create my own shell-script.
+
+2. Making a repository with many branches on git.
