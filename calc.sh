@@ -10,8 +10,8 @@ echo "1. Addition"
 echo "2. Substraction"
 echo "3. Multiplication"
 echo "4. Division"
+echo "5. Modulus"
 read choice
-
 
 
 case $choice in
@@ -23,7 +23,10 @@ case $choice in
    ;;
    "4") result=`expr $a / $b `
    ;;
+   "5") result=`expr $a % $b `
+   ;; 
 esac
+
 
 
 echo "Result: $result"
