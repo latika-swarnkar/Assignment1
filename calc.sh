@@ -11,7 +11,6 @@ echo "2. Substraction"
 echo "3. Multiplication"
 echo "4. Division"
 echo "5. Modulus"
-echo "6. Check equality "
 read choice
 
 
@@ -26,13 +25,7 @@ case $choice in
    ;;
    "5") result=`expr $a % $b `
    ;; 
-   "6") if [ $a -eq $b ]
-        then
-            result="Both equal"
-        else
-            result="Both are not equal"
-        fi
-   ;;
+   
 esac
 
 
